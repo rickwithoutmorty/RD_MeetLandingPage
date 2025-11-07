@@ -52,11 +52,27 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 28.15rem;
+    text-align: center;
+    max-width: 30rem;
+    padding: 0 2rem;
+}
+
+h1 {
+    color: var(--color-slate-900);
+    line-height: 110%;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.meet-hero-description p {
+    color: var(--color-slate-600);
+    line-height: 150%;
+    font-weight: 500;
+    font-size: 1.25;
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 70rem) {
+@media screen and (max-width: 75rem) {
     .meet-hero-desktop {
         display: none;
     }
