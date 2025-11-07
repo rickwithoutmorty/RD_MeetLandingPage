@@ -24,6 +24,38 @@ body {
     font-family: "Red Hat Display", sans-serif;
 }
 
+button {
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 150%;
+    color: var(--color-white);
+    border: none;
+}
+
+button:hover {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--color-cyan-600);
+}
+
+.btn-secondary {
+    background-color: var(--color-purple-600);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-cyan-300 );
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-purple-300);
+
+}
+
 /* HEADER STYLING */
 header {
     margin: 0 -2rem;
@@ -73,37 +105,7 @@ h1 {
     margin: 1rem 0;
 }
 
-button {
-    padding: 1rem 1.5rem;
-    border-radius: 2rem;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 150%;
-    color: var(--color-white);
-    border: none;
-}
-
-button:hover {
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-.btn-primary {
-    background-color: var(--color-cyan-600);
-}
-
-.btn-secondary {
-    background-color: var(--color-purple-600);
-}
-
-.btn-primary:hover {
-    background-color: var(--color-cyan-300 );
-}
-
-.btn-secondary:hover {
-    background-color: var(--color-purple-300);
-
-}
+/* MAIN */
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 75rem) {
