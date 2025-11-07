@@ -18,6 +18,11 @@
 body {
     display: grid;
     justify-content: center;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+header {
+    margin: 0 -2rem;
 }
 
 .meet-hero-mobiletablet {
@@ -47,5 +52,8 @@ body {
     }
     .meet-hero {
         flex-direction: column;
+    }
+    header {
+        margin: 0;
     }
 }
