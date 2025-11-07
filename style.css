@@ -154,6 +154,16 @@ h1 {
     line-height: 150%;
 }
 
+/* FOOTER */
+footer {
+    background-image: url("./assets/desktop/image-footer.jpg");
+    width: 100vw;
+}
+
+footer section {
+    background-color: rgba(77, 150, 168, 0.8);
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 75rem) {
     .meet-hero-desktop {
@@ -173,6 +183,10 @@ h1 {
     h1 {
         font-size: 2.5rem;
     }
+
+    footer {
+        background-image: url("./assets/tablet/image-footer.jpg");
+    }
 }
 
 @media screen and (max-width: 47.5rem) {
@@ -183,5 +197,9 @@ h1 {
     .gallery-description h2 {
         font-size: 2rem;
         max-width: 20rem;
+    }
+
+    footer {
+        background-image: url("./assets/mobile/image-footer.jpg");
     }
 }
