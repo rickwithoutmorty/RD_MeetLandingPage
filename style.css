@@ -56,6 +56,12 @@ button:hover {
 
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* HEADER STYLING */
 header {
     margin: 0 -2rem;
@@ -106,6 +112,16 @@ h1 {
 }
 
 /* MAIN */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(1rem, 10rem));
+    gap: 1.5rem;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 75rem) {
@@ -125,5 +141,11 @@ h1 {
     }
     h1 {
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 47.5rem) {
+    .gallery {
+        grid-template-columns: repeat(2, minmax(1rem, 10rem));
     }
 }
