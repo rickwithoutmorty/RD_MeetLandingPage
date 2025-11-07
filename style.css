@@ -4,6 +4,37 @@
     box-sizing: border-box;
 }
 
-.meet-hero-desktop {
+body {
+    display: grid;
+    justify-content: center;
+}
+
+.meet-hero-mobiletablet {
     display: none;
+    max-height: 18.75rem;
+    max-width: 51.25rem;
+}
+
+.meet-heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.meet-hero {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0;
+} 
+
+@media screen and (max-width: 70rem) {
+    .meet-hero-desktop {
+        display: none;
+    }
+    .meet-hero-mobiletablet {
+        display: block;
+    }
+    .meet-hero {
+        flex-direction: column;
+    }
 }
