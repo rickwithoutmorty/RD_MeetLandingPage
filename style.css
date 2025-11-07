@@ -123,6 +123,36 @@ h1 {
     border-radius: 0.5rem;
 }
 
+.gallery-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 34rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.gallery-description h3 {
+    text-transform: uppercase;
+    color: var(--color-cyan-600);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.gallery-description h2 {
+    color: var(--color-slate-900);
+    font-weight: 900;
+    font-size: 2.5rem;
+    max-width: 27rem;
+    margin-bottom: 1rem;
+}
+
+.gallery-description p {
+    color: var(--color-slate-600);
+    font-size: 1rem;
+    line-height: 150%;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 75rem) {
     .meet-hero-desktop {
@@ -147,5 +177,10 @@ h1 {
 @media screen and (max-width: 47.5rem) {
     .gallery {
         grid-template-columns: repeat(2, minmax(1rem, 10rem));
+    }
+
+    .gallery-description h2 {
+        font-size: 2rem;
+        max-width: 20rem;
     }
 }
