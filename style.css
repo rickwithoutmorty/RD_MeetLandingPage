@@ -42,7 +42,14 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 4rem 0;
-} 
+}
+
+.meet-hero-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 28.15rem;
+}
 
 @media screen and (max-width: 70rem) {
     .meet-hero-desktop {
@@ -53,6 +60,7 @@ header {
     }
     .meet-hero {
         flex-direction: column;
+        overflow: hidden;
     }
     header {
         margin: 0;
